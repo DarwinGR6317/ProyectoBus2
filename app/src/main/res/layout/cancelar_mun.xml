@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:background="#fde767"
+        android:backgroundTint="#fde767"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:src="@drawable/user">
+
+            <ImageView
+                android:id="@+id/user"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/user"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginTop="30dp"
+                android:text="Kendrick Lamar"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="#8a28d8"
+        android:backgroundTint="#8a28d8"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/AMartínHidalgo"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:text="A - San Martín Hidalgo"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:text="14:00 horas"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#0B0B0B"
+            android:textSize="26sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:text="Espacio: 40"
+            android:textAlignment="center"
+            android:textColor="#0B0B0B"
+            android:textSize="26sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:text="Disponible: 34"
+            android:textAlignment="center"
+            android:textColor="#0B0B0B"
+            android:textSize="26sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="5dp"
+            android:background="#fde767"
+
+            android:text="Cancelar"
+            android:textAlignment="center"
+            android:textColor="#8a28d8"
+            android:textSize="26sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="40dp"
+            android:text="16:00 horas"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#0B0B0B"
+            android:textSize="26sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:text="Espacio: 40"
+            android:textAlignment="center"
+            android:textColor="#0B0B0B"
+            android:textSize="26sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:text="Disponible: 40"
+            android:textAlignment="center"
+            android:textColor="#0B0B0B"
+            android:textSize="26sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="5dp"
+            android:background="#fde767"
+            android:text="Cancelar"
+            android:textAlignment="center"
+            android:textColor="#8a28d8"
+            android:textSize="26sp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="335dp"
+            android:src="@drawable/retornar"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:background="#fde767"
+        android:backgroundTint="#fde767"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="40dp"
+            android:text="Derechos Reservados CUValles"
+            android:textAlignment="center"
+            android:textColor="#0B0B0B"
+            android:textColorHighlight="#121111"
+            android:textColorHint="#0E0E0E"
+            android:textSize="26sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fde767"
+        android:backgroundTint="#fde767"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bootle"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:padding="7dp"
+                android:src="@drawable/bootle"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="10dp"
+                android:src="@drawable/home"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/book"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:src="@drawable/book"></ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
