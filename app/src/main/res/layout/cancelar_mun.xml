@@ -62,7 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="32dp"
             android:layout_marginTop="10dp"
-            android:text="A - San Martín Hidalgo"
+            android:text="C - San Martín Hidalgo"
             android:textColor="@color/white"
             android:textAlignment="center"
             android:textSize="28sp" />
