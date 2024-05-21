@@ -164,15 +164,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
             android:text="Tala"
             android:textSize="20sp"
             android:textStyle="bold"></TextView>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="335dp"
-            android:src="@drawable/retornar"></ImageView>
 
     </LinearLayout>
 

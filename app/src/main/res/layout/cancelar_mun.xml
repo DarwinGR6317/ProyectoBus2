@@ -166,18 +166,13 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="130dp"
             android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
             android:background="#fde767"
             android:text="Cancelar"
             android:textAlignment="center"
             android:textColor="#8a28d8"
             android:textSize="26sp"
             android:textStyle="bold"></TextView>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="335dp"
-            android:src="@drawable/retornar"></ImageView>
 
     </LinearLayout>
 

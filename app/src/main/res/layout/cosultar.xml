@@ -83,12 +83,14 @@
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold"></TextView>
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="135dp"
             android:layout_marginTop="10dp"
             android:src="@drawable/consultaa"></ImageView>
+
         <TextView
             android:layout_width="137dp"
             android:layout_height="wrap_content"
@@ -100,18 +102,13 @@
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold"></TextView>
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="135dp"
             android:layout_marginTop="10dp"
             android:src="@drawable/consultaa"></ImageView>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="335dp"
-            android:src="@drawable/retornar"></ImageView>
 
     </LinearLayout>
 
